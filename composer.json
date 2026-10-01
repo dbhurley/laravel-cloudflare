@@ -1,5 +1,5 @@
 {
-    "name": "monicahq/laravel-cloudflare",
+    "name": "dbhurley/laravel-cloudflare",
     "description": "Add Cloudflare ip addresses to trusted proxies for Laravel.",
     "keywords": [
         "laravel",
