@@ -1,13 +1,13 @@
 <?php
 
-namespace Monicahq\Cloudflare\Http\Middleware;
+namespace Dbhurley\Cloudflare\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Middleware\TrustProxies as Middleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
-use Monicahq\Cloudflare\LaravelCloudflare;
+use Dbhurley\Cloudflare\LaravelCloudflare;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class TrustProxies extends Middleware

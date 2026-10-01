@@ -1,9 +1,9 @@
 <?php
 
-namespace Monicahq\Cloudflare;
+namespace Dbhurley\Cloudflare;
 
 use Closure;
-use Monicahq\Cloudflare\Facades\CloudflareProxies;
+use Dbhurley\Cloudflare\Facades\CloudflareProxies;
 
 final class LaravelCloudflare
 {

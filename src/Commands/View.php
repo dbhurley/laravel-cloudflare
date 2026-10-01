@@ -1,6 +1,6 @@
 <?php
 
-namespace Monicahq\Cloudflare\Commands;
+namespace Dbhurley\Cloudflare\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Cache\Factory as Cache;

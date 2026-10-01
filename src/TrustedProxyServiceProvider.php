@@ -1,6 +1,6 @@
 <?php
 
-namespace Monicahq\Cloudflare;
+namespace Dbhurley\Cloudflare;
 
 use Illuminate\Support\ServiceProvider;
 

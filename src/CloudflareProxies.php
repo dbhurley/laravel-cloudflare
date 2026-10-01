@@ -1,6 +1,6 @@
 <?php
 
-namespace Monicahq\Cloudflare;
+namespace Dbhurley\Cloudflare;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Http\Client\Factory as HttpClient;

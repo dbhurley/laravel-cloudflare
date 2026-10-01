@@ -1,11 +1,11 @@
 <?php
 
-namespace Monicahq\Cloudflare\Commands;
+namespace Dbhurley\Cloudflare\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Cache\Factory as Cache;
 use Illuminate\Contracts\Config\Repository as Config;
-use Monicahq\Cloudflare\LaravelCloudflare;
+use Dbhurley\Cloudflare\LaravelCloudflare;
 
 final class Reload extends Command
 {

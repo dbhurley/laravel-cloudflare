@@ -1,13 +1,13 @@
 <?php
 
-namespace Monicahq\Cloudflare\Facades;
+namespace Dbhurley\Cloudflare\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static array load(int $type = \Monicahq\Cloudflare\CloudflareProxies::IP_VERSION_ANY)
+ * @method static array load(int $type = \Dbhurley\Cloudflare\CloudflareProxies::IP_VERSION_ANY)
  *
- * @see \Monicahq\Cloudflare\CloudflareProxies
+ * @see \Dbhurley\Cloudflare\CloudflareProxies
  */
 final class CloudflareProxies extends Facade
 {
@@ -17,6 +17,6 @@ final class CloudflareProxies extends Facade
     #[\Override]
     protected static function getFacadeAccessor(): string
     {
-        return \Monicahq\Cloudflare\CloudflareProxies::class;
+        return \Dbhurley\Cloudflare\CloudflareProxies::class;
     }
 }
